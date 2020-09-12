@@ -1,7 +1,8 @@
 {
-    "title": "Grayscale",
-    "name": "startbootstrap-grayscale",
-    "version": "6.0.2",
+    "title": "Personal Portoflio",
+    "name": "portfolio",
+    "author": "Ian Agpawa<agpawaji@gmail.com>",
+    "version": "1.0.0",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
         "build:assets": "node scripts/build-assets.js",
@@ -10,31 +11,19 @@
         "build:scss": "node scripts/build-scss.js",
         "clean": "node scripts/clean.js",
         "start": "npm run build && node scripts/start.js",
-        "start:debug": "npm run build && node scripts/start-debug.js"
+        "start:debug": "npm run build && node scripts/start-debug.js",
+        "github": "npm build --prod --base-href https://ianagpawa.github.io/portfolio/",
+        "deploy": "npm run github && ngh"
     },
     "description": "A grayscale one page HTML theme for Bootstrap.",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://startbootstrap.com/themes/grayscale",
-    "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-grayscale/issues",
-        "email": "feedback@startbootstrap.com"
-    },
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-grayscale.git"
+        "url": "https://github.com/ianagpawa/portfolio.git"
     },
+    "bugs": {
+        "url": "https://github.com/ianagpawa/portfolio/issues"
+      },
     "dependencies": {
         "bootstrap": "4.5.0"
     },
