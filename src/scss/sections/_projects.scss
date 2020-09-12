@@ -18,5 +18,20 @@
                 width: 30%;
             }
         }
+        .social {
+            margin-top: 1rem;
+            a {
+                height: 3rem;
+                width: 3rem;
+                line-height: 3rem;
+                color: fade-out($white, 0.7);
+                &:hover {
+                    color: fade-out($white, 0.5);
+                }
+                &:active {
+                    color: $white;
+                }
+            }
+        }
     }
 }
