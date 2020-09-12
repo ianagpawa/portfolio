@@ -1,0 +1,121 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Grayscale - Start Bootstrap Theme
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v5.13.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Varela+Round', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i', rel='stylesheet')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
+            .container
+                a.navbar-brand.js-scroll-trigger(href='#page-top') Portfolio
+                button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                    | Menu
+                    i.fas.fa-bars
+                #navbarResponsive.collapse.navbar-collapse
+                    ul.navbar-nav.ml-auto
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#about') About
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#projects') Projects
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#signup') Contact
+
+        // Masthead
+        header.masthead
+            .container.d-flex.h-100.align-items-center
+                .mx-auto.text-center
+                    h1.mx-auto.my-0.text-uppercase Ian Agpawa
+                    h2.text-white-50.mx-auto.mt-2.mb-5 I am a software engineer with a background in clinical psychology currently working in financial markets.
+                    a.mx-2(href='#!')
+                        i.fab.fa-linkedin
+                    a.mx-2(href='#!')
+                        i.fab.fa-github
+                    a.mx-2(href='#!')
+                        i.fab.fa-facebook-f
+
+        // About
+        section#about.about-section.text-center
+            .container
+                .row
+                    .col-lg-8.mx-auto
+                        h2.text-white.mb-4 Personal Portfolio
+                        p.text-white-50
+                            | This is my portfolio showcasing a few of my personal projects.  This web app is using the 
+                            a(href='https://startbootstrap.com/template-overviews/grayscale/') Grayscale Bootstrap theme by Start Bootstrap 
+                            | and is hosted on Github Pages.
+                img.img-fluid(src='assets/img/ipad.png', alt='')
+
+        // Projects
+        section#projects.projects-section.bg-light
+            .container
+                // Project One Row
+                .row.justify-content-center.no-gutters.mb-5.mb-lg-0
+                    .col-lg-6
+                        img.img-fluid(src='assets/img/blog.png', alt='')
+                    .col-lg-6
+                        .bg-black.text-center.h-100.project
+                            .d-flex.h-100
+                                .project-text.w-100.my-auto.text-center.text-lg-left
+                                    h4.text-white Blog
+                                    p.mb-0.text-white-50
+                                        | An example of where you can put an image of a project, or anything else, along with a description.
+                                    hr.d-none.d-lg-block.mb-0.ml-0
+                // Project Two Row
+                .row.justify-content-center.no-gutters
+                    .col-lg-6
+                        img.img-fluid(src='assets/img/newsfeed.png', alt='')
+                    .col-lg-6.order-lg-first
+                        .bg-black.text-center.h-100.project
+                            .d-flex.h-100
+                                .project-text.w-100.my-auto.text-center.text-lg-right
+                                    h4.text-white Newsfeed
+                                    p.mb-0.text-white-50
+                                        | Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!
+                                    hr.d-none.d-lg-block.mb-0.mr-0
+                // Project One Row
+                .row.justify-content-center.no-gutters.mb-5.mb-lg-0
+                    .col-lg-6
+                        img.img-fluid(src='assets/img/weather.png', alt='')
+                    .col-lg-6
+                        .bg-black.text-center.h-100.project
+                            .d-flex.h-100
+                                .project-text.w-100.my-auto.text-center.text-lg-left
+                                    h4.text-white Weather
+                                    p.mb-0.text-white-50
+                                        | An example of where you can put an image of a project, or anything else, along with a description.
+                                    hr.d-none.d-lg-block.mb-0.ml-0
+
+        // Footer
+        footer.footer.bg-black.small.text-center.text-white-50
+            .container
+                | Copyright © Your Website 2020
+
+        // Bootstrap core JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+        script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js')
+
+        // Third party plugin JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
