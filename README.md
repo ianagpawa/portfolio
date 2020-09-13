@@ -72,4 +72,5 @@ Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework
 Copyright 2013-2020 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
 
 
-Update dist folder to docs in scrips
+
+git subtree push --prefix docs origin gh-pages
