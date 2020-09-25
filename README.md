@@ -96,3 +96,5 @@ git subtree push --prefix dist origin gh-pages
 ```
 
 Boom. If your folder isn’t called `dist`, then you’ll need to change that in each of the commands above.
+
+git subtree push --prefix docs origin gh-pages
