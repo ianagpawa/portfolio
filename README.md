@@ -97,4 +97,8 @@ git subtree push --prefix dist origin gh-pages
 
 Boom. If your folder isn’t called `dist`, then you’ll need to change that in each of the commands above.
 
-git subtree push --prefix docs origin gh-pages
+On master.
+Need to define the build first initial build.
+But then may only need to push to master on wards.  
+Looking for /docs on master.
+do feature branches, then merge to master with git merge --squash branchName

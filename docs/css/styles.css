@@ -10337,6 +10337,9 @@ body {
 .projects-section .project-text .social a:active {
   color: #fff;
 }
+.projects-section .project-text .social a svg {
+  font-size: x-large;
+}
 
 .signup-section {
   padding: 10rem 0;
