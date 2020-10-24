@@ -45,16 +45,20 @@ html(lang='en')
             .container.d-flex.h-100.align-items-center
                 .mx-auto.text-center
                     h1.mx-auto.my-0.text-uppercase Ian Agpawa
-                    h2.text-white-50.mx-auto.mt-2.mb-5 Software engineer with a background in clinical psychology currently working in financial markets and creating personal projects on my free time.
+                    h2.text-white-50.mx-auto.mt-2.mb-5 Software engineer with a background in clinical psychology currently working in financial markets.
                     .social.d-flex.justify-content-center.align-items-center
-                        a.mx-2(href='https://github.com/ianagpawa', target='_blank')
+                        a.mx-2(href='https://github.com/ianagpawa', target='_blank', title="Github")
                             i.fab.fa-github
-                        a.mx-2(href='https://www.linkedin.com/in/ianagpawa', target='_blank')
+                        a.mx-2(href='https://www.linkedin.com/in/ianagpawa', target='_blank', title="LinkedIn")
                             i.fab.fa-linkedin
-                        a.mx-2(href='https://xenodochial-edison-d8fc22.netlify.app/', target='_blank')
+                        a.mx-2(href='https://xenodochial-edison-d8fc22.netlify.app/', target='_blank', title="Blog")
                             i.fab.fa-empire
-                        a.mx-2(href='https://twitter.com/TheArtilect', target='_blank')
+                        a.mx-2(href='https://www.youtube.com/watch?v=I-OHxsl7N5w&list=PLMwQ3sxJXApjmF1mAlhk69vAmoDnuESod', target='_blank', title="Youtube")
+                            i.fab.fa-youtube
+                        a.mx-2(href='https://twitter.com/TheArtilect', target='_blank', title="Twitter")
                             i.fab.fa-twitter
+                        a.mx-2(href='https://open.spotify.com/playlist/11IQR7IYabBCazbWkK3gVr', target='_blank', title="Spotify")
+                            i.fab.fa-spotify
         
 
         // About
@@ -62,7 +66,7 @@ html(lang='en')
             .container
                 .row
                     .col-lg-8.mx-auto
-                        h2.text-white.mb-4 Personal Portfolio
+                        h2.text-white.mb-4 Portfolio
                         p.text-white-50
                             | This is a showcase for a few of my personal projects.  This web app is using the 
                             a(href='https://startbootstrap.com/template-overviews/grayscale/', target='_blank') Grayscale Bootstrap theme by Start Bootstrap 
@@ -74,23 +78,6 @@ html(lang='en')
             .container
                 // Project One Row
                 .row.justify-content-center.no-gutters.mb-5.mb-lg-0
-                    .col-lg-6
-                       img.img-fluid(src='assets/img/blog.png', alt='Project image' )
-                    .col-lg-6
-                        .bg-black.text-center.h-100.project
-                            .d-flex.h-100
-                                .project-text.w-100.my-auto.text-center.text-lg-left
-                                    h4.text-white Blog
-                                    p.mb-0.text-white-50
-                                        | Personal Gatsby (React) blog hosted on Netlify.  It used Netlify CMS for content editing.
-                                    .social.d-flex.justify-content-start.align-items-center
-                                        a.mx-2(href='https://xenodochial-edison-d8fc22.netlify.app', target='_blank')
-                                            i.fas.fa-link
-                                        a.mx-2(href='https://github.com/ianagpawa/blog', target='_blank')
-                                            i.fab.fa-github
-                                    hr.d-none.d-lg-block.mb-0.ml-0
-                // Project Two Row
-                .row.justify-content-center.no-gutters
                     .col-lg-6
                         img.img-fluid(src='assets/img/newsfeed.png', alt='Project image')
                     .col-lg-6.order-lg-first
@@ -106,14 +93,32 @@ html(lang='en')
                                         a.mx-2(href='https://github.com/ianagpawa/newsfeed', target='_blank')
                                             i.fab.fa-github
                                     hr.d-none.d-lg-block.mb-0.mr-0
-                // Project Three Row
-                .row.justify-content-center.no-gutters.mb-5.mb-lg-0
+                // Project Two Row
+                .row.justify-content-center.no-gutters
                     .col-lg-6
-                        img.img-fluid(src='assets/img/weatherForecast.png', alt='Project image')
+                       img.img-fluid(src='assets/img/blog.png', alt='Project image' )
                     .col-lg-6
                         .bg-black.text-center.h-100.project
                             .d-flex.h-100
                                 .project-text.w-100.my-auto.text-center.text-lg-left
+                                    h4.text-white Blog
+                                    p.mb-0.text-white-50
+                                        | Personal Gatsby (React) blog hosted on Netlify.  It used Netlify CMS for content editing.
+                                    .social.d-flex.justify-content-start.align-items-center
+                                        a.mx-2(href='https://xenodochial-edison-d8fc22.netlify.app', target='_blank')
+                                            i.fas.fa-link
+                                        a.mx-2(href='https://github.com/ianagpawa/blog', target='_blank')
+                                            i.fab.fa-github
+                                    hr.d-none.d-lg-block.mb-0.ml-0
+                
+                // Project Three Row
+                .row.justify-content-center.no-gutters.mb-5.mb-lg-0
+                    .col-lg-6
+                        img.img-fluid(src='assets/img/weatherForecast.png', alt='Project image')
+                    .col-lg-6.order-lg-first
+                        .bg-black.text-center.h-100.project
+                            .d-flex.h-100
+                                .project-text.w-100.my-auto.text-center.text-lg-right
                                     h4.text-white Weather Forecast
                                     p.mb-0.text-white-50
                                         | A five day weather forecast React app using the OpenWeatherAPI.
@@ -122,23 +127,24 @@ html(lang='en')
                                             i.fas.fa-link
                                         a.mx-2(href='https://github.com/ianagpawa/weather', target='_blank')
                                             i.fab.fa-github
-                                    hr.d-none.d-lg-block.mb-0.ml-0
-                
+                                    hr.d-none.d-lg-block.mb-0.mr-0
+
+
                 // Project Four Row
                 .row.justify-content-center.no-gutters
                     .col-lg-6
-                        img.img-fluid(src='assets/img/centos-httpd.png', alt='Project image')
-                    .col-lg-6.order-lg-first
+                       img.img-fluid(src='assets/img/centos-httpd.png', alt='Project image' )
+                    .col-lg-6
                         .bg-black.text-center.h-100.project
                             .d-flex.h-100
-                                .project-text.w-100.my-auto.text-center.text-lg-right
+                                .project-text.w-100.my-auto.text-center.text-lg-left
                                     h4.text-white CentOS Httpd Starter
                                     p.mb-0.text-white-50
                                         | Starter docker config for basic Apache web server on CentOS. 
                                     .social.d-flex.justify-content-end.align-items-center
                                         a.mx-2(href='https://github.com/ianagpawa/centos-httpd', target='_blank')
                                             i.fab.fa-github
-                                    hr.d-none.d-lg-block.mb-0.mr-0
+                                    hr.d-none.d-lg-block.mb-0.ml-0
         
         // Signup
         section#signup.signup-section
