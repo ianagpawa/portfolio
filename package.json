@@ -22,7 +22,7 @@
     },
     "bugs": {
         "url": "https://github.com/ianagpawa/portfolio/issues"
-      },
+    },
     "dependencies": {
         "bootstrap": "4.5.0"
     },
