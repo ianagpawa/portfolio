@@ -1,6 +1,6 @@
 /*!
     * Start Bootstrap - Personal Portoflio v1.0.0 (undefined)
-    * Copyright 2013-2020 Ian Agpawa<agpawaji@gmail.com>
+    * Copyright 2013-2021 Ian Agpawa<agpawaji@gmail.com>
     * Licensed under MIT (https://github.com/StartBootstrap/portfolio/blob/master/LICENSE)
     */
     (function ($) {
