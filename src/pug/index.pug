@@ -45,38 +45,59 @@ html(lang='en')
             .container.d-flex.h-100.align-items-center
                 .mx-auto.text-center
                     h1.mx-auto.my-0.text-uppercase Ian Agpawa
-                    h2.text-white-50.mx-auto.mt-2.mb-5 Software engineer with a background in psychology currently working in financial markets.
+                    h2.text-white-50.mx-auto.mt-2.mb-5 Software engineer with a background in psychology currently in financial markets.
                     .social.d-flex.justify-content-center.align-items-center
-                        a.mx-2(href='https://github.com/ianagpawa', target='_blank', title="Github")
-                            i.fab.fa-github
                         a.mx-2(href='https://www.linkedin.com/in/ianagpawa', target='_blank', title="LinkedIn")
                             i.fab.fa-linkedin
+                        a.mx-2(href='https://github.com/ianagpawa', target='_blank', title="Github")
+                            i.fab.fa-github
                         a.mx-2(href='https://xenodochial-edison-d8fc22.netlify.app/', target='_blank', title="Blog")
                             i.fab.fa-empire
-                        a.mx-2(href='https://www.youtube.com/watch?v=I-OHxsl7N5w&list=PLMwQ3sxJXApjmF1mAlhk69vAmoDnuESod', target='_blank', title="Youtube")
-                            i.fas.fa-music 
                         a.mx-2(href='https://twitter.com/ianagpawa', target='_blank', title="Twitter")
                             i.fab.fa-twitter
+
+                    .social.d-flex.justify-content-center.align-items-center
                         a.mx-2(href='https://open.spotify.com/playlist/11IQR7IYabBCazbWkK3gVr', target='_blank', title="Spotify")
                             i.fab.fa-spotify
-        
+                        a.mx-2(href='https://www.youtube.com/watch?v=I-OHxsl7N5w&list=PLMwQ3sxJXApjmF1mAlhk69vAmoDnuESod', target='_blank', title="Music")
+                            i.fas.fa-music 
+                        a.mx-2(href='https://ianagpawa.github.io/check-it', target='_blank', title="CheckIt")
+                            i.fas.fa-jedi
+                        a.mx-2(href='https://www.youtube.com/channel/UCeop7LvKKOYPPq0wfIio8OQ/featured', target='_blank', title="Youtube")
+                            i.fas.fa-gamepad
 
         // About
         section#about.about-section.text-center
             .container
                 .row
                     .col-lg-8.mx-auto
-                        h2.text-white.mb-4 Portfolio
+                        h2.text-white.mb-4 Selected Works
                         p.text-white-50
-                            | This is a showcase for a few of my personal projects.  This web app is using the 
-                            a(href='https://startbootstrap.com/template-overviews/grayscale/', target='_blank') Grayscale Bootstrap theme by Start Bootstrap 
-                            | and is hosted on Github Pages.
+                            | This portfolio showcases a few of my personal projects and was built using the
+                            a(href='https://startbootstrap.com/template-overviews/grayscale/', target='_blank') Grayscale Bootstrap theme by Start Bootstrap.
                 img.img-fluid(src='assets/img/ipad.png', alt='ipad image')
 
         // Projects
         section#projects.projects-section.bg-light
             .container
                 // Project One Row
+                .row.justify-content-center.no-gutters
+                    .col-lg-6
+                       img.img-fluid(src='assets/img/CheckIt.png', alt='Project image' )
+                    .col-lg-6
+                        .bg-black.text-center.h-100.project
+                            .d-flex.h-100
+                                .project-text.w-100.my-auto.text-center.text-lg-left
+                                    h4.text-white CheckIt
+                                    p.mb-0.text-white-50
+                                        | Entertainment blog focusing on music and movies built using Jekyll and the Minimal Mistakes theme.
+                                    .social.d-flex.justify-content-start.align-items-center
+                                        a.mx-2(href='https://ianagpawa.github.io/check-it', target='_blank')
+                                            i.fas.fa-link
+                                        a.mx-2(href='https://github.com/ianagpawa/check-it', target='_blank')
+                                            i.fab.fa-github
+                                    hr.d-none.d-lg-block.mb-0.ml-0
+                // Project Two Row
                 .row.justify-content-center.no-gutters.mb-5.mb-lg-0
                     .col-lg-6
                         img.img-fluid(src='assets/img/newsfeed.png', alt='Project image')
@@ -86,14 +107,14 @@ html(lang='en')
                                 .project-text.w-100.my-auto.text-center.text-lg-right
                                     h4.text-white Newsfeed
                                     p.mb-0.text-white-50
-                                        | An Angular news site hosted on Github Pages and uses the NYTimes API along with PrimeNg components.
+                                        | An Angular news site using the NYTimes API and utilizing PrimeNg components.
                                     .social.d-flex.justify-content-end.align-items-center
                                         a.mx-2(href='https://ianagpawa.github.io/newsfeed', target='_blank')
                                                 i.fas.fa-link
                                         a.mx-2(href='https://github.com/ianagpawa/newsfeed', target='_blank')
                                             i.fab.fa-github
                                     hr.d-none.d-lg-block.mb-0.mr-0
-                // Project Two Row
+                // Project Three Row
                 .row.justify-content-center.no-gutters
                     .col-lg-6
                        img.img-fluid(src='assets/img/blog.png', alt='Project image' )
@@ -101,9 +122,9 @@ html(lang='en')
                         .bg-black.text-center.h-100.project
                             .d-flex.h-100
                                 .project-text.w-100.my-auto.text-center.text-lg-left
-                                    h4.text-white Blog
+                                    h4.text-white BlogIt
                                     p.mb-0.text-white-50
-                                        | Personal Gatsby (React) blog hosted on Netlify.  It used Netlify CMS for content editing.
+                                        | Tech blog using Gatsby and Netlify CMS for content editing.
                                     .social.d-flex.justify-content-start.align-items-center
                                         a.mx-2(href='https://xenodochial-edison-d8fc22.netlify.app', target='_blank')
                                             i.fas.fa-link
@@ -111,7 +132,7 @@ html(lang='en')
                                             i.fab.fa-github
                                     hr.d-none.d-lg-block.mb-0.ml-0
                 
-                // Project Three Row
+                // Project Four Row
                 .row.justify-content-center.no-gutters.mb-5.mb-lg-0
                     .col-lg-6
                         img.img-fluid(src='assets/img/weatherForecast.png', alt='Project image')
@@ -128,7 +149,7 @@ html(lang='en')
                                         a.mx-2(href='https://github.com/ianagpawa/weather', target='_blank')
                                             i.fab.fa-github
                                     hr.d-none.d-lg-block.mb-0.mr-0
-                // Project Four Row
+                // Project Five Row
                 .row.justify-content-center.no-gutters
                     .col-lg-6
                        img.img-fluid(src='assets/img/random-quotes.png', alt='Project image' )
@@ -141,22 +162,6 @@ html(lang='en')
                                         | RESTful Java Spring Boot API for some of my favorite quotes.
                                     .social.d-flex.justify-content-start.align-items-center
                                         a.mx-2(href='https://github.com/ianagpawa/random-quotes-api', target='_blank')
-                                            i.fab.fa-github
-                                    hr.d-none.d-lg-block.mb-0.ml-0
-
-                // Project Five Row
-                .row.justify-content-center.no-gutters.mb-5.mb-lg-0
-                    .col-lg-6
-                       img.img-fluid(src='assets/img/centos-httpd.png', alt='Project image' )
-                    .col-lg-6.order-lg-first
-                        .bg-black.text-center.h-100.project
-                            .d-flex.h-100
-                                .project-text.w-100.my-auto.text-center.text-lg-right
-                                    h4.text-white CentOS Httpd Starter
-                                    p.mb-0.text-white-50
-                                        | Starter docker config for basic Apache web server on CentOS.
-                                    .social.d-flex.justify-content-end.align-items-center
-                                        a.mx-2(href='https://github.com/ianagpawa/centos-httpd', target='_blank')
                                             i.fab.fa-github
                                     hr.d-none.d-lg-block.mb-0.ml-0
         
@@ -184,7 +189,7 @@ html(lang='en')
         // Footer
         footer.footer.bg-black.small.text-center.text-white-50
             .container
-                | Copyright © Ian Agpawa 2020
+                | Copyright © Ian Agpawa 2022
 
         // Bootstrap core JS
         script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
